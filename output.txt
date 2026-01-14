@@ -1,0 +1,55 @@
+          CLASS PERFORMANCE        
+Highest Percentage       :87.00
+Lowest Percentage        :47.00
+Class Average Percentage :63.73
+
+Grade Distribution:
+O  : 0
+A+ : 1
+A  : 0
+B+ : 0
+B  : 0
+C  : 1
+D  : 0
+F  : 1
+
+         STUDENT WISE DETAILS        
+
+Student ID : 25MCMI45
+Name       : Ananya
+Subject Marks (Minor + Major):
+Subject 1 : 32 + 58 = 90
+Subject 2 : 30 + 55 = 85
+Subject 3 : 35 + 60 = 95
+Subject 4 : 28 + 50 = 78
+Subject 5 : 31 + 56 = 87
+Total Marks  : 435 / 500
+Percentage   : 87.00
+CGPA         : 8.70
+Grade        : A+
+
+Student ID : 25MCMI90
+Name       : Rohit
+Subject Marks (Minor + Major):
+Subject 1 : 25 + 45 = 70
+Subject 2 : 0 + 0 = 0
+Subject 3 : 30 + 50 = 80
+Subject 4 : 26 + 48 = 74
+Subject 5 : 20 + 42 = 62
+Total Marks  : 286 / 500
+Percentage   : 57.20
+CGPA         : 5.72
+Grade        : C
+
+Student ID : 25MCMI88
+Name       : Sneha
+Subject Marks (Minor + Major):
+Subject 1 : 18 + 32 = 50
+Subject 2 : 22 + 38 = 60
+Subject 3 : 0 + 0 = 0
+Subject 4 : 24 + 36 = 60
+Subject 5 : 25 + 40 = 65
+Total Marks  : 235 / 500
+Percentage   : 47.00
+CGPA         : 4.70
+Grade        : F
