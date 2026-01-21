@@ -34,11 +34,11 @@ int main(int argc, char* argv[]){
 			continue;
 		}
 		if(valid_name(name)==1){
-			fprintf(fout,"Invalid Name\n");
+			fprintf(fout,"Invalid Name for the Student ID %s\n",id);
 			continue;
 		}
 		if(valid_marks(marks)==1){
-			fprintf(fout,"Invalid marks\n");
+			fprintf(fout,"Invalid Marks for the Student ID %s \n",id);
 			continue;
 		}
 		strcpy(students[count].student_ID, id);
