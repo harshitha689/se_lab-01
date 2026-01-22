@@ -1,13 +1,16 @@
-#include "header.h"
 #include <stdio.h>
 #include <string.h>
 
-
+#include "student.h"
+#include "validation.h"
+#include "compute_result.h"
+#include "print_result.h"
 
 int main(int argc, char* argv[]){
 	if(argc<3){
 		printf("Usage: %s <input_file> <output_file>\n",argv[0]);
 		return 1;
+
 	}
 	FILE* fin = fopen(argv[1],"r");
 	FILE* fout = fopen(argv[2],"w");
@@ -34,11 +37,11 @@ int main(int argc, char* argv[]){
 			continue;
 		}
 		if(valid_name(name)==1){
-			fprintf(fout,"Invalid Name for the Student ID %s\n",id);
+			fprintf(fout,"Invalid Name for Student ID %s\n",id);
 			continue;
 		}
 		if(valid_marks(marks)==1){
-			fprintf(fout,"Invalid Marks for the Student ID %s \n",id);
+			fprintf(fout,"Invalid marks for Student ID %s\n",id);
 			continue;
 		}
 		strcpy(students[count].student_ID, id);

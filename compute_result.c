@@ -1,4 +1,4 @@
-#include "header.h"
+#include "compute_result.h"
 #include <stdio.h>
 #include <string.h>
 void compute_result(Student *s){
